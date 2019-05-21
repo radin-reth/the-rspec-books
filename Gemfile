@@ -52,7 +52,8 @@ end
 
 group :test do
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
-  gem 'cucumber-rails', '~> 1.7'
+  gem 'cucumber-rails', '~> 1.7', require: false
+  gem 'database_cleaner', '~> 1.7'
 end
 
 
